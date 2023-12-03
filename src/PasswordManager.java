@@ -5,6 +5,7 @@ import java.util.Map; // For storing the account name and hashed password
 import java.util.Scanner;
 
 public class PasswordManager {
+    // Password vault to store the account name and hashed password
     private static final Map<String, String> passwordVault = new HashMap<>();
     private static final Scanner scanner = new Scanner(System.in);
 
