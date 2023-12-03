@@ -95,7 +95,7 @@ public class PasswordManager {
         } catch (NoSuchAlgorithmException e) {
             // Handle the exception appropriately
             e.printStackTrace();
-            return null;
+            return null; // Return null if an exception occurs
         }
     }
 }
